@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj": {}
+  },
+  "projects": {
+    "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj",
+        "projectName": "DiscordQueryBot",
+        "projectPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj",
+        "packagesPath": "C:\\Users\\Flodi\\.nuget\\packages\\",
+        "outputPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Flodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows10.0.17763.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows10.0.17763": {
+            "targetAlias": "net7.0-windows10.0.17763.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows10.0.17763": {
+          "targetAlias": "net7.0-windows10.0.17763.0",
+          "dependencies": {
+            "A2S": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Jering.Javascript.NodeJS": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "LightDB": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "SteamStorefrontAPI": {
+              "target": "Package",
+              "version": "[2.0.1.171, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.17763.29, 10.0.17763.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[7.0.12, 7.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj",
+        "projectName": "DiscordQueryPackaging",
+        "projectPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj",
+        "packagesPath": "C:\\Users\\Flodi\\.nuget\\packages\\",
+        "outputPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Flodi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net451"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.14393": {
+            "targetAlias": "net451",
+            "projectReferences": {
+              "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj": {
+                "projectPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1702"
+          ]
+        }
+      },
+      "frameworks": {
+        "uap10.0.14393": {
+          "targetAlias": "net451",
+          "dependencies": {
+            "Microsoft.Windows.SDK.BuildTools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.22621.2428, )"
+            }
+          },
+          "imports": [
+            "netcoreapp3.1",
+            "netcoreapp3.0",
+            "netcoreapp2.0",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net7.0-windows10.0.19041"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

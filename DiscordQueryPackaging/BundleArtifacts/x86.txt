@@ -1,0 +1,2 @@
+MainPackage=H:\GithubRepositories\IrrenhausServerResources\DiscordQueryPackaging\bin\x86\Debug\DiscordQueryPackaging_1.0.9.0_x86_Debug.appx
+SymbolPackage=H:\GithubRepositories\IrrenhausServerResources\DiscordQueryPackaging\obj\x86\Debug\Symbols\DiscordQueryPackaging_1.0.9.0_x86_Debug.appxsym
