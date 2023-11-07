@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DiscordQueryBot
-build_property.ProjectDir = H:\GithubRepositories\IrrenhausServerResources\DiscordQueryBot\
+build_property.ProjectDir = H:\GithubRepositories\DiscordQueryBot\DiscordQueryBot\
