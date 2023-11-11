@@ -118,7 +118,6 @@ public class DiscordEmbedCreator
         fields.Add(map);
 
         EmbedFieldBuilder activity = new EmbedFieldBuilder();
-        Console.WriteLine(ServerEmbedData.LastOnline);
         DateTimeOffset time = ServerEmbedData.LastOnline;
         activity.Name = "Server Stats <a:ServerStats:1162735659384049684>";
         activity.Value = $"Last Online: {new TimestampTag(time, TimestampTagStyles.Relative)}";

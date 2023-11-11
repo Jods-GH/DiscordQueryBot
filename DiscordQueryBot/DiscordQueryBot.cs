@@ -28,23 +28,27 @@ public class ServerQueryBot
         AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnProcessExit);
         _client = new DiscordSocketClient();
         DBhelper = new DataBaseHelper();
-        Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot is starting");
         String bottoken = UserBotToken();
-        try
-        {
-            await _client.LoginAsync(TokenType.Bot, bottoken);
-            await _client.StartAsync();
-        }
-        catch
-        {
-            bottoken = UserBotToken();
-        }
+        Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot is starting with token: {bottoken}");
+
+        await _client.LoginAsync(TokenType.Bot, bottoken,true);
+        await _client.StartAsync();
         CommandService command = new CommandService();
-        LoggingService logger = new LoggingService(_client, command);
+        LoggingService logger = new LoggingService(_client, command, this);
         Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot started");
         _client.Ready += botReady;
         _client.SlashCommandExecuted += SlashCommandHandler;
         await Task.Delay(-1);
+    }
+
+    public async Task InvalidToken()
+    {
+        Console.WriteLine($"[REQUEST] {DateTime.Now.ToString("HH:mm:ss")} Token Invalid Please update your bot token and restart the application");
+        String bottoken = Console.ReadLine();
+        DiscordQuery.Default.BotToken = (bottoken);
+        DiscordQuery.Default.Save();
+        System.Environment.Exit(1);
+
     }
 
     private String UserBotToken()
@@ -72,7 +76,7 @@ public class ServerQueryBot
      void OnProcessExit(object sender, EventArgs e)
     {
         DBhelper.exit();
-        Console.WriteLine("I'm out of here");
+        Console.WriteLine("[INFO] Application Exiting!");
     }
     private async Task botReady()
     {
@@ -182,7 +186,6 @@ public class ServerQueryBot
         Embed embed;
         if (serverInfo.HasValue)
         {
-            Console.WriteLine("value exists");
             embed = DiscordEmbedCreator.SetupEmbed(serverInfo.Value, Color.DarkBlue, domain,(int)port).Result;
         }
         else
@@ -251,7 +254,7 @@ public class ServerQueryBot
         catch (ApplicationCommandException exception)
         {
             var json = JsonConvert.SerializeObject(exception.Errors, Formatting.Indented);
-            Console.WriteLine(json);
+            Console.WriteLine($"[ERROR] {json}");
         }
     }
 

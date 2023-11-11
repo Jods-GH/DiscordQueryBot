@@ -96,7 +96,6 @@ public class Utility
                 {
                     IPAddress ip = GetIPAddress(address);
                     ServerInfo result = Server.Query(ip.ToString(), port, 10);
-                    Console.WriteLine(result.ToString());
                     info.name = result.Name;
                     info.ping = (int)PingHost(address);
                     info.maxplayers = result.MaxPlayers;
@@ -104,7 +103,7 @@ public class Utility
                     info.gameID = result.GameId;
                     info.game = result.Game;
                     info.port = result.Port;
-                    ServerPlayer[] players = new ServerPlayer[result.MaxPlayers];
+                    ServerPlayer[] players = new ServerPlayer[result.Players];
                     for (int i = 0; i <result.Players; i++)
                     {
                         ServerPlayer player = new();
@@ -112,7 +111,7 @@ public class Utility
                     info.players = players;
                   
                 }
-                Console.WriteLine("The server name is: "+info.name);
+                Console.WriteLine($"[INFO] The server name is: {info.name}");
                
                 return info;
             }
@@ -120,7 +119,6 @@ public class Utility
         catch (Exception ex)
         {
             Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Server detected as offline: {address}:{port}");
-            Console.WriteLine(ex);
             return null;
         }
     }
