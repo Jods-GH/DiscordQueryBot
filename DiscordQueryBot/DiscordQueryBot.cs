@@ -24,6 +24,7 @@ public class ServerQueryBot
     //private BotSettings BotSettings;
     public async Task MainAsync()
     {
+        
         GameOption = JsonFileReader.Read<GameOption>("GameOption.json");
         AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnProcessExit);
         _client = new DiscordSocketClient();
@@ -182,6 +183,7 @@ public class ServerQueryBot
     private async Task setupServer(SocketTextChannel chat,String domain,long port,String? game)
     {
         Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Adding Server: {domain}:{port}");
+
         ServerGameDigInfo? serverInfo = Utility.GetServerInfo(domain, (int)port, game);
         Embed embed;
         if (serverInfo.HasValue)
@@ -206,6 +208,7 @@ public class ServerQueryBot
             MaxPlayers = serverInfo.Value.maxplayers,
             Name = serverInfo.Value.name,
             LastActivity = DateTime.Now,
+            gamedig = game,
             AdditionalDescription = ""//BotSettings.ServerDescriptions.GetValueOrDefault(ip.ToString()+":"+port, "")
         };
         DBhelper.addToDatabase(embedData);

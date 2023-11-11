@@ -22,6 +22,9 @@ public class ServerEmbed
     [BsonField("Name")]
     public string Name { get; set; }
     [BsonField("Map")]
+
+    public string? gamedig { get; set; }
+    [BsonField("gamedig")]
     public string Map { get; set; }
     [BsonField("MaxPlayers")]
     public int MaxPlayers { get; set; }

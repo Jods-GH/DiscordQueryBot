@@ -1,10 +1,14 @@
 {
-    "games" :
-    {
-        "game": {
+    "games": {
+        "arkse": {
             "id": 346110,
             "name": "Ark Survival Evolved",
             "gamedig": "arkse"
+        },
+        "dayz": {
+            "id": 221100,
+            "name": "DayZ",
+            "gamedig": "dayz"
         }
     }
 }

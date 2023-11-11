@@ -9,6 +9,7 @@ using System.Reflection;
 using System.Text.Json;
 using Jering.Javascript.NodeJS;
 using LightDB;
+using static JsonFileReader;
 
 /// <summary>
 /// The utility class for getting info
@@ -33,7 +34,7 @@ public class Utility
             try
             {
                 ct.Token.ThrowIfCancellationRequested();
-                ServerGameDigInfo? serverInfo = GetServerInfo(serverEmbed.ServerDomain, serverEmbed.ServerPort,null);
+                ServerGameDigInfo? serverInfo = GetServerInfo(serverEmbed.ServerDomain, serverEmbed.ServerPort,serverEmbed.gamedig);
                 Embed embed;
                 if (serverInfo.HasValue)
                 {
@@ -128,6 +129,7 @@ public class Utility
     {
         JsonDocument gamedig;
         ServerGameDigInfo info;
+        GameOption GameOption = JsonFileReader.Read<GameOption>("GameOption.json");
         try
         {
             
@@ -171,6 +173,13 @@ public class Utility
                 else
                 {
                     info.port = port;
+                    GameOption.Games.TryGetValue(game,out GameOptionGame gamevalue);
+                    if(gamevalue!= null)
+                    {
+                        info.gameID = (ulong)gamevalue.id;
+                        info.game = gamevalue.name;
+                    }
+                    
                 }
             }
         }
