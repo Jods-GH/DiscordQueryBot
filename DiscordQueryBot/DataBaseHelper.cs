@@ -10,7 +10,15 @@ public class DataBaseHelper
     private ILiteCollection<ServerEmbed> collection;
 	public DataBaseHelper()
 	{
-        db = new LiteDatabase(@"Embeds.db");
+        string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+        string userFilePath = Path.Combine(localAppData, "DiscordQueryBot");
+
+        if (!Directory.Exists(userFilePath))
+            Directory.CreateDirectory(userFilePath);
+
+
+        String path = userFilePath + "/Embeds.db";
+        db = new LiteDatabase(@path);
         // Get collection
         collection = db.GetCollection<ServerEmbed>("Embeds");
         // Create unique index in MessageID field
