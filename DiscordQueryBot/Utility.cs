@@ -59,7 +59,7 @@ public class Utility
                 message.ModifyAsync(msg => {msg.Embed = embed; msg.Components = builder.Build(); });                  
                 Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Updated Server Info for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
                 var rand = new Random();
-                Thread.Sleep(rand.Next(60, 600)*1000); 
+                Thread.Sleep(rand.Next(10,60)*1000); 
             }
             catch (OperationCanceledException e)
             {
@@ -112,7 +112,6 @@ public class Utility
                     info.players = players;
                   
                 }
-                Console.WriteLine($"[INFO] The server name is: {info.name}");
                
                 return info;
             }

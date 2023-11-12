@@ -31,18 +31,24 @@ public class ServerQueryBot
         DBhelper = new DataBaseHelper();
         String bottoken = UserBotToken();
         Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot is starting with token: {bottoken}");
-
-        await _client.LoginAsync(TokenType.Bot, bottoken,true);
-        await _client.StartAsync();
         CommandService command = new CommandService();
-        LoggingService logger = new LoggingService(_client, command, this);
+        LoggingService logger = new LoggingService(_client, command);
         Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot started");
         _client.Ready += botReady;
         _client.SlashCommandExecuted += SlashCommandHandler;
+        _client.Disconnected += async (ex) =>
+        {
+            if (ex is HttpException httpException && httpException.HttpCode == HttpStatusCode.Unauthorized)
+            {
+                InvalidToken();
+            }
+        };
+        await _client.LoginAsync(TokenType.Bot, bottoken, false);
+        await _client.StartAsync();
         await Task.Delay(-1);
     }
 
-    public async Task InvalidToken()
+    private async void InvalidToken()
     {
         Console.WriteLine($"[REQUEST] {DateTime.Now.ToString("HH:mm:ss")} Token Invalid Please update your bot token and restart the application");
         String bottoken = Console.ReadLine();
