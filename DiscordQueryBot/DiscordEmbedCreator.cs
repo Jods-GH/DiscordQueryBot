@@ -101,7 +101,7 @@ public class DiscordEmbedCreator
         List<EmbedFieldBuilder> fields = new();
         EmbedFieldBuilder field = new EmbedFieldBuilder();
         field.WithName("Offline");
-        field.WithValue("<:No:1178408930674741440>");
+        field.WithValue("Offline");
         fields.Add(field);
 
         EmbedFieldBuilder linkField = new EmbedFieldBuilder();
