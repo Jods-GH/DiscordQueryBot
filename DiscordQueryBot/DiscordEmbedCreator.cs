@@ -78,7 +78,7 @@ public class DiscordEmbedCreator
         var embed = new EmbedBuilder
         {
             // Embed property can be set within object initializer
-            Title = serverInfo.name + " :green_circle:",
+            Title = serverInfo.name + " <:Yes:1178408935070380143>",
             Description = serverEmbed.AdditionalDescription,
             Fields = fields,
             Footer = embedFooterBuilder,
@@ -101,7 +101,7 @@ public class DiscordEmbedCreator
         List<EmbedFieldBuilder> fields = new();
         EmbedFieldBuilder field = new EmbedFieldBuilder();
         field.WithName("Offline");
-        field.WithValue("Offline");
+        field.WithValue("<:No:1178408930674741440>");
         fields.Add(field);
 
         EmbedFieldBuilder linkField = new EmbedFieldBuilder();
@@ -125,7 +125,7 @@ public class DiscordEmbedCreator
         var embed = new EmbedBuilder
         {
             // Embed property can be set within object initializer
-            Title = ServerEmbedData.Name+":red_circle:",
+            Title = ServerEmbedData.Name+ " <:No:1178408930674741440>",
             Description = ServerEmbedData.AdditionalDescription,
             Fields = fields,
             Footer = embedFooterBuilder,
