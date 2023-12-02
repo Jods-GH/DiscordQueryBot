@@ -30,6 +30,10 @@ public class ServerQueryBot
         _client = new DiscordSocketClient();
         DBhelper = new DataBaseHelper();
         String bottoken = UserBotToken();
+
+
+        DBhelper.dropDatabase();
+
         Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot is starting with token: {bottoken}");
         CommandService command = new CommandService();
         LoggingService logger = new LoggingService(_client, command);
@@ -202,6 +206,10 @@ public class ServerQueryBot
         }
         IUserMessage message = chat.SendMessageAsync(embed: embed).Result;
         IPAddress ip = Utility.GetIPAddress(domain);
+
+        Dictionary<DateTime, int> PlayeOnlineList = new Dictionary<DateTime, int>();
+        DateTime nearestFullHour = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, 0, 0);
+        PlayeOnlineList.Add(nearestFullHour, serverInfo.Value.players.Length);
         ServerEmbed embedData = new()
         {
             MessageID = message.Id,
@@ -214,6 +222,7 @@ public class ServerQueryBot
             MaxPlayers = serverInfo.Value.maxplayers,
             Name = serverInfo.Value.name,
             LastActivity = DateTime.Now,
+            PlayeOnlineList = PlayeOnlineList,
             gamedig = game,
             AdditionalDescription = ""//BotSettings.ServerDescriptions.GetValueOrDefault(ip.ToString()+":"+port, "")
         };

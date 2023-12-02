@@ -31,6 +31,9 @@ public class ServerEmbed
 
     [BsonField("LastActivity")]
     public DateTime LastActivity { get; set; }
+    [BsonField("PlayerOnlineList")]
+
+    public Dictionary<DateTime,int> PlayeOnlineList { get; set; }
     [BsonField("LastOnline")]
     public DateTime LastOnline { get; set; }
     [BsonField("AdditionalDescription")]

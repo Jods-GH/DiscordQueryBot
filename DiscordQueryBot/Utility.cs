@@ -35,6 +35,21 @@ public class Utility
             {
                 ct.Token.ThrowIfCancellationRequested();
                 ServerGameDigInfo? serverInfo = GetServerInfo(serverEmbed.ServerDomain, serverEmbed.ServerPort,serverEmbed.gamedig);
+                if(serverEmbed.PlayeOnlineList == null)
+                {
+                    serverEmbed.PlayeOnlineList = new Dictionary<DateTime, int>();
+                }
+                if(serverEmbed.PlayeOnlineList.Count > 0)
+                {
+                    foreach (KeyValuePair<DateTime, int> timeAmount in serverEmbed.PlayeOnlineList)
+                    {
+                        TimeSpan difference = DateTime.Now - timeAmount.Key;
+                        if (difference.TotalDays > 2)
+                        {
+                            serverEmbed.PlayeOnlineList.Remove(timeAmount.Key);
+                        }
+                    }
+                }
                 Embed embed;
                 if (serverInfo.HasValue)
                 {
@@ -49,7 +64,19 @@ public class Utility
                 {
                     embed = DiscordEmbedCreator.CreateEmbedOffline(serverEmbed).Result;
                 }
+                DateTime nearestFullHour = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, 0, 0);
 
+                if(serverEmbed.PlayeOnlineList.TryGetValue(nearestFullHour,out int value)){
+                    if (value < serverInfo.Value.players.Length)
+                    {
+                        serverEmbed.PlayeOnlineList[nearestFullHour] = serverInfo.Value.players.Length;
+                    }
+                }
+                else
+                {
+                    serverEmbed.PlayeOnlineList.Add(nearestFullHour, serverInfo.Value.players.Length);
+                }
+                
                 ComponentBuilder builder = new();
                 ButtonBuilder button = new();
                 button.WithLabel("join");

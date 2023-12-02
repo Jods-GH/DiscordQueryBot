@@ -75,6 +75,27 @@ public class DiscordEmbedCreator
 
         }
         fields.Add(activity);
+
+
+        Console.WriteLine("PlayerAmount: " + serverInfo.players);
+        String LabelString = "";
+        String DataString = "";
+        int i = 0;
+        foreach (KeyValuePair<DateTime, int> timeAmount in serverEmbed.PlayeOnlineList)
+        {
+            i++;
+            LabelString += timeAmount.Key.ToString("HH");
+            DataString += timeAmount.Value;
+            if (i< serverEmbed.PlayeOnlineList.Count - 1)
+            {
+                LabelString += ",";
+                DataString += ",";
+            }
+         }
+
+        String imageUrlString = "https://quickchart.io/chart?c={type:%27bar%27,data:{labels:["+ LabelString+"],%20datasets:[{label:%27Players%27,data:["+ DataString+ "]}]}}";
+
+        Console.WriteLine(imageUrlString);
         var embed = new EmbedBuilder
         {
             // Embed property can be set within object initializer
@@ -85,7 +106,8 @@ public class DiscordEmbedCreator
             Color = color,
             Url = "http://Irrenhaus.tech",
             Timestamp = DateTime.UtcNow,
-            ThumbnailUrl = steamApp.HeaderImage
+            ThumbnailUrl = steamApp.HeaderImage,
+            ImageUrl = imageUrlString
         };
 
         //Your embed needs to be built before it is able to be sent
