@@ -29,10 +29,9 @@ public class ServerQueryBot
         AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnProcessExit);
         _client = new DiscordSocketClient();
         DBhelper = new DataBaseHelper();
+        
         String bottoken = UserBotToken();
 
-
-        DBhelper.dropDatabase();
 
         Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Bot is starting with token: {bottoken}");
         CommandService command = new CommandService();
