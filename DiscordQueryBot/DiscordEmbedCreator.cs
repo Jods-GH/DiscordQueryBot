@@ -77,7 +77,7 @@ public class DiscordEmbedCreator
         fields.Add(activity);
 
 
-        Console.WriteLine("PlayerAmount: " + serverInfo.players);
+        
         String LabelString = "";
         String DataString = "";
         int i = 0;
@@ -86,7 +86,7 @@ public class DiscordEmbedCreator
             i++;
             LabelString += timeAmount.Key.ToString("HH");
             DataString += timeAmount.Value;
-            if (i< serverEmbed.PlayeOnlineList.Count - 1)
+            if (i< serverEmbed.PlayeOnlineList.Count)
             {
                 LabelString += ",";
                 DataString += ",";
@@ -95,7 +95,7 @@ public class DiscordEmbedCreator
 
         String imageUrlString = "https://quickchart.io/chart?c={type:%27bar%27,data:{labels:["+ LabelString+"],%20datasets:[{label:%27Players%27,data:["+ DataString+ "]}]}}";
 
-        Console.WriteLine(imageUrlString);
+        
         var embed = new EmbedBuilder
         {
             // Embed property can be set within object initializer
