@@ -28,6 +28,31 @@ public class DiscordEmbedCreator
         //Your embed needs to be built before it is able to be sent
         return embed.Build();
     }
+
+    public static String createImageString(ServerEmbed serverEmbed)
+    {
+
+        String LabelString = "";
+        String DataString = "";
+        int i = 0;
+        foreach (KeyValuePair<DateTime, int> timeAmount in serverEmbed.PlayeOnlineList)
+        {
+            i++;
+            LabelString += timeAmount.Key.ToString("HH");
+            DataString += timeAmount.Value;
+            if (i < serverEmbed.PlayeOnlineList.Count)
+            {
+                LabelString += ",";
+                DataString += ",";
+            }
+        }
+
+        String imageUrlString = "https://quickchart.io/chart?c={type:%27bar%27,data:{labels:[" + LabelString + "],%20datasets:[{label:%27Players%27,data:[" + DataString + "]}]}}";
+
+        return "";
+    }
+
+
     public static async Task<Embed> CreateEmbedOnline(ServerGameDigInfo serverInfo, Color color, ServerEmbed serverEmbed)
     {
         EmbedFooterBuilder embedFooterBuilder = new EmbedFooterBuilder();
@@ -78,22 +103,6 @@ public class DiscordEmbedCreator
 
 
         
-        String LabelString = "";
-        String DataString = "";
-        int i = 0;
-        foreach (KeyValuePair<DateTime, int> timeAmount in serverEmbed.PlayeOnlineList)
-        {
-            i++;
-            LabelString += timeAmount.Key.ToString("HH");
-            DataString += timeAmount.Value;
-            if (i< serverEmbed.PlayeOnlineList.Count)
-            {
-                LabelString += ",";
-                DataString += ",";
-            }
-         }
-
-        String imageUrlString = "https://quickchart.io/chart?c={type:%27bar%27,data:{labels:["+ LabelString+"],%20datasets:[{label:%27Players%27,data:["+ DataString+ "]}]}}";
 
         
         var embed = new EmbedBuilder
@@ -107,7 +116,7 @@ public class DiscordEmbedCreator
             Url = "http://Irrenhaus.tech",
             Timestamp = DateTime.UtcNow,
             ThumbnailUrl = steamApp.HeaderImage,
-            ImageUrl = imageUrlString
+            ImageUrl = createImageString(serverEmbed)
         };
 
         //Your embed needs to be built before it is able to be sent
