@@ -26990,11 +26990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj",
+      "projectUniqueName": "D:\\Git_Reporsitories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj",
       "projectName": "DiscordQueryPackaging",
-      "projectPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj",
+      "projectPath": "D:\\Git_Reporsitories\\DiscordQueryBot\\DiscordQueryPackaging\\DiscordQueryPackaging.wapproj",
       "packagesPath": "C:\\Users\\Flodi\\.nuget\\packages\\",
-      "outputPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryPackaging\\obj\\",
+      "outputPath": "D:\\Git_Reporsitories\\DiscordQueryBot\\DiscordQueryPackaging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27015,8 +27015,8 @@
         "uap10.0.14393": {
           "targetAlias": "net451",
           "projectReferences": {
-            "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj": {
-              "projectPath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj"
+            "D:\\Git_Reporsitories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj": {
+              "projectPath": "D:\\Git_Reporsitories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj"
             }
           }
         }
@@ -27046,11 +27046,10 @@
           "net471",
           "net472",
           "net48",
-          "net7.0-windows10.0.19041"
+          "net8.0-windows10.0.19041"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     },
     "runtimes": {
@@ -27082,7 +27081,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'A2S 1.0.2' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'A2S 1.0.2' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "A2S",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27092,7 +27091,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Aliyun.OSS.SDK.NetCore 2.13.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Aliyun.OSS.SDK.NetCore 2.13.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Aliyun.OSS.SDK.NetCore",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27102,7 +27101,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'BouncyCastle.NetCore 1.8.5' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'BouncyCastle.NetCore 1.8.5' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "BouncyCastle.NetCore",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27112,7 +27111,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CSRedisCore 3.6.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'CSRedisCore 3.6.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "CSRedisCore",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27122,7 +27121,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Discord.Net.Commands 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Discord.Net.Commands 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Discord.Net.Commands",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27132,7 +27131,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Discord.Net.Core 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Discord.Net.Core 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Discord.Net.Core",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27142,7 +27141,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Discord.Net.Interactions 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Discord.Net.Interactions 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Discord.Net.Interactions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27152,7 +27151,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Discord.Net.Rest 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Discord.Net.Rest 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Discord.Net.Rest",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27162,7 +27161,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Discord.Net.Webhook 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Discord.Net.Webhook 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Discord.Net.Webhook",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27172,7 +27171,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Discord.Net.WebSocket 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Discord.Net.WebSocket 3.12.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Discord.Net.WebSocket",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27182,7 +27181,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Jering.Javascript.NodeJS 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Jering.Javascript.NodeJS 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Jering.Javascript.NodeJS",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27192,7 +27191,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'K4os.Compression.LZ4 1.2.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'K4os.Compression.LZ4 1.2.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "K4os.Compression.LZ4",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27202,7 +27201,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'K4os.Compression.LZ4.Streams 1.2.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'K4os.Compression.LZ4.Streams 1.2.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "K4os.Compression.LZ4.Streams",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27212,7 +27211,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'K4os.Hash.xxHash 1.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'K4os.Hash.xxHash 1.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "K4os.Hash.xxHash",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27222,7 +27221,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'LightDB 2.0.3' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'LightDB 2.0.3' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "LightDB",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27232,7 +27231,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Configuration 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Configuration 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Configuration",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27242,7 +27241,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Configuration.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Configuration.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Configuration.Abstractions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27252,7 +27251,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Configuration.FileExtensions 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Configuration.FileExtensions 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Configuration.FileExtensions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27262,7 +27261,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Configuration.Json 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Configuration.Json 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Configuration.Json",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27272,7 +27271,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.DependencyInjection 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.DependencyInjection 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.DependencyInjection",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27282,7 +27281,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.DependencyInjection.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.DependencyInjection.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27292,7 +27291,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.FileProviders.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.FileProviders.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.FileProviders.Abstractions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27302,7 +27301,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.FileProviders.Physical 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.FileProviders.Physical 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.FileProviders.Physical",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27312,7 +27311,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.FileSystemGlobbing 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.FileSystemGlobbing 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.FileSystemGlobbing",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27322,7 +27321,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Hosting.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Hosting.Abstractions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Hosting.Abstractions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27332,7 +27331,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Http 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Http 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Http",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27342,7 +27341,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Logging 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Logging 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Logging",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27352,7 +27351,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Options 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Options 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Options",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27362,7 +27361,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Extensions.Primitives 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Extensions.Primitives 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Extensions.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27372,7 +27371,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data 8.0.29' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data 8.0.29' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27382,7 +27381,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySqlConnector 2.1.9' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySqlConnector 2.1.9' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "MySqlConnector",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27392,7 +27391,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'SteamStorefrontAPI 2.0.1.171' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'SteamStorefrontAPI 2.0.1.171' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "SteamStorefrontAPI",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27402,7 +27401,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Configuration.ConfigurationManager 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Configuration.ConfigurationManager 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Configuration.ConfigurationManager",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27412,7 +27411,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Diagnostics.DiagnosticSource 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Diagnostics.DiagnosticSource 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Diagnostics.DiagnosticSource",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27422,7 +27421,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Interactive.Async 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Interactive.Async 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Interactive.Async",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27432,7 +27431,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Linq.Async 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Linq.Async 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Linq.Async",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27442,7 +27441,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Reactive 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Reactive 5.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Reactive",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27452,7 +27451,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Runtime.CompilerServices.Unsafe 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Runtime.CompilerServices.Unsafe 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Runtime.CompilerServices.Unsafe",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27462,7 +27461,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Security.AccessControl 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Security.AccessControl 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Security.AccessControl",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27472,7 +27471,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.ProtectedData 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Security.Cryptography.ProtectedData 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Security.Cryptography.ProtectedData",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27482,7 +27481,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Security.Permissions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Security.Permissions 7.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Security.Permissions",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"
@@ -27492,7 +27491,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Text.Encodings.Web 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Text.Encodings.Web 6.0.0' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041' instead of the project target framework 'UAP,Version=v10.0.14393'. This package may not be fully compatible with your project.",
       "libraryId": "System.Text.Encodings.Web",
       "targetGraphs": [
         "UAP,Version=v10.0.14393"

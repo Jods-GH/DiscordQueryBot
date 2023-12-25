@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7NG4Noilh83GkBJxrf/90OZpRByQcdqf1CSpz0z6KgBkTFVax9X7XYzOCzN0Da4NfffvNKXCcXdbVOSfQZWZ0g==",
+  "dgSpecHash": "sBkrFXSsKW8k2eLXU36hLh1PX5ZV+igRln1kIav7qjchbXMQnbnJwmUmZMD7yUb98C6jWXC92XSLplvGJpnN1Q==",
   "success": true,
-  "projectFilePath": "H:\\GithubRepositories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj",
+  "projectFilePath": "D:\\Git_Reporsitories\\DiscordQueryBot\\DiscordQueryBot\\DiscordQueryBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flodi\\.nuget\\packages\\a2s\\1.0.2\\a2s.1.0.2.nupkg.sha512",
     "C:\\Users\\Flodi\\.nuget\\packages\\aliyun.oss.sdk.netcore\\2.13.0\\aliyun.oss.sdk.netcore.2.13.0.nupkg.sha512",
@@ -69,7 +69,7 @@
     "C:\\Users\\Flodi\\.nuget\\packages\\system.text.json\\6.0.5\\system.text.json.6.0.5.nupkg.sha512",
     "C:\\Users\\Flodi\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Flodi\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Flodi\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.29\\microsoft.windows.sdk.net.ref.10.0.17763.29.nupkg.sha512"
+    "C:\\Users\\Flodi\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.31\\microsoft.windows.sdk.net.ref.10.0.17763.31.nupkg.sha512"
   ],
   "logs": []
 }
