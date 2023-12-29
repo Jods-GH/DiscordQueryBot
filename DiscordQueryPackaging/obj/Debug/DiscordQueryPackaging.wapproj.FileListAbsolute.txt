@@ -80,3 +80,4 @@ H:\GithubRepositories\IrrenhausServerResources\DiscordQueryPackaging\obj\Debug\q
 H:\GithubRepositories\IrrenhausServerResources\DiscordQueryPackaging\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 H:\GithubRepositories\IrrenhausServerResources\DiscordQueryPackaging\obj\Debug\ProjectArchitectures.txt
 H:\GithubRepositories\IrrenhausServerResources\DiscordQueryPackaging\obj\Debug\DiscordQueryPackaging.wapproj.LastBuild.txt
+D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryPackaging\obj\Debug\DiscordQueryPackaging.wapproj.AssemblyReference.cache

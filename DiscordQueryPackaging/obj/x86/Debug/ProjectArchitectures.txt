@@ -1,1 +1,1 @@
-H:\GithubRepositories\DiscordQueryBot\DiscordQueryPackaging\DiscordQueryPackaging.wapproj;x86
+D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryPackaging\DiscordQueryPackaging.wapproj;x86

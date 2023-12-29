@@ -83,7 +83,14 @@ public class Utility
                 button.WithStyle(ButtonStyle.Link);
                 button.WithUrl($"https://Irrenhaus.tech/Servers/{serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
                 builder.WithButton(button);
-                message.ModifyAsync(msg => {msg.Embed = embed; msg.Components = builder.Build(); });                  
+                try
+                {
+                    await message.ModifyAsync(msg => { msg.Embed = embed; msg.Components = builder.Build(); });
+                }
+                catch
+                {
+                    Console.WriteLine($"[Watning] {DateTime.Now.ToString("HH:mm:ss")} Modifying message for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort} unsuccesfull");
+                }                
                 Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Updated Server Info for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
                 var rand = new Random();
                 Thread.Sleep(rand.Next(10,60)*1000); 

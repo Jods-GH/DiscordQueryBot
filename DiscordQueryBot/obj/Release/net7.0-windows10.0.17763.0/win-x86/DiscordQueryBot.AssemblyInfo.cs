@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiscordQueryBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc06a6f112d8bff13c46c0025dcfcee86804cd66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+830d9f3d8c7ec5c3f761d8b55c5b237565a64216")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiscordQueryBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiscordQueryBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

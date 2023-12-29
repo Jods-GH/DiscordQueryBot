@@ -21,7 +21,6 @@ public class ServerQueryBot
     private DataBaseHelper DBhelper;
     private Dictionary<ulong, CancellationTokenSource> tasklist = new Dictionary<ulong, CancellationTokenSource>();
     private GameOption GameOption;
-    //private BotSettings BotSettings;
     public async Task MainAsync()
     {
         
