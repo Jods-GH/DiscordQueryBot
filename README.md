@@ -11,4 +11,4 @@ Requires gamedig
 1. Install .net runtime https://dotnet.microsoft.com/en-us/download/dotnet
 2. install NodeJs from https://nodejs.org/en/download
 3. Install gamedig by opening cmd and running  ```npm install gamedig``` or from https://www.npmjs.com/package/gamedig
-4. Download installer https://github.com/Jods-GH/DiscordQueryBot/blob/master/Publish/setup.exe
+4. Download installer https://github.com/Jods-GH/DiscordQueryBot/releases/latest
