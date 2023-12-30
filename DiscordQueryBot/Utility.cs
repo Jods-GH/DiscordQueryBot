@@ -25,82 +25,67 @@ public class Utility
     }
 
 
-    public static async Task PingChecker(IUserMessage message,ServerEmbed serverEmbed, CancellationTokenSource ct)
-    {
-        Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} setting up embed updater for: " + serverEmbed.ServerDomain + ":" + serverEmbed.ServerPort);
-        bool moretodo = true;
-        while (moretodo)
-        {
-            try
-            {
-                ct.Token.ThrowIfCancellationRequested();
-                ServerGameDigInfo? serverInfo = GetServerInfo(serverEmbed.ServerDomain, serverEmbed.ServerPort,serverEmbed.gamedig);
-                if(serverEmbed.PlayeOnlineList == null)
-                {
-                    serverEmbed.PlayeOnlineList = new Dictionary<DateTime, int>();
-                }
-                if(serverEmbed.PlayeOnlineList.Count > 0)
-                {
-                    foreach (KeyValuePair<DateTime, int> timeAmount in serverEmbed.PlayeOnlineList)
-                    {
-                        TimeSpan difference = DateTime.Now - timeAmount.Key;
-                        if (difference.TotalDays > 2)
-                        {
-                            serverEmbed.PlayeOnlineList.Remove(timeAmount.Key);
-                        }
-                    }
-                }
-                Embed embed;
-                if (serverInfo.HasValue)
-                {
-                    if(serverInfo.Value.players.Length > 0)
-                    {
-                        serverEmbed.LastActivity = DateTime.Now;
-                    }
-                    serverEmbed.LastOnline = DateTime.Now;
-                    embed = DiscordEmbedCreator.CreateEmbedOnline(serverInfo.Value, Color.Green, serverEmbed).Result;
-                }
-                else
-                {
-                    embed = DiscordEmbedCreator.CreateEmbedOffline(serverEmbed).Result;
-                }
-                DateTime nearestFullHour = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, 0, 0);
 
-                if(serverEmbed.PlayeOnlineList.TryGetValue(nearestFullHour,out int value)){
-                    if (value < serverInfo.Value.players.Length)
-                    {
-                        serverEmbed.PlayeOnlineList[nearestFullHour] = serverInfo.Value.players.Length;
-                    }
-                }
-                else
-                {
-                    serverEmbed.PlayeOnlineList.Add(nearestFullHour, serverInfo.Value.players.Length);
-                }
-                
-                ComponentBuilder builder = new();
-                ButtonBuilder button = new();
-                button.WithLabel("join");
-                button.WithStyle(ButtonStyle.Link);
-                button.WithUrl($"https://Irrenhaus.tech/Servers/{serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
-                builder.WithButton(button);
-                try
-                {
-                    await message.ModifyAsync(msg => { msg.Embed = embed; msg.Components = builder.Build(); });
-                }
-                catch
-                {
-                    Console.WriteLine($"[Watning] {DateTime.Now.ToString("HH:mm:ss")} Modifying message for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort} unsuccesfull");
-                }                
-                Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Updated Server Info for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
-                var rand = new Random();
-                Thread.Sleep(rand.Next(10,60)*1000); 
-            }
-            catch (OperationCanceledException e)
+    public static void PingChecker(IUserMessage message,ServerEmbed serverEmbed)
+    {
+        ServerGameDigInfo? serverInfo = GetServerInfo(serverEmbed.ServerDomain, serverEmbed.ServerPort,serverEmbed.gamedig);
+        if(serverEmbed.PlayeOnlineList == null)
+        {
+            serverEmbed.PlayeOnlineList = new Dictionary<DateTime, int>();
+        }
+        if(serverEmbed.PlayeOnlineList.Count > 0)
+        {
+            foreach (KeyValuePair<DateTime, int> timeAmount in serverEmbed.PlayeOnlineList)
             {
-                Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Canceling task for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
-                moretodo = false;
+                TimeSpan difference = DateTime.Now - timeAmount.Key;
+                if (difference.TotalDays > 2)
+                {
+                    serverEmbed.PlayeOnlineList.Remove(timeAmount.Key);
+                }
             }
         }
+        Embed embed;
+        if (serverInfo.HasValue)
+        {
+            if(serverInfo.Value.players.Length > 0)
+            {
+                serverEmbed.LastActivity = DateTime.Now;
+            }
+            serverEmbed.LastOnline = DateTime.Now;
+            embed = DiscordEmbedCreator.CreateEmbedOnline(serverInfo.Value, Color.Green, serverEmbed).Result;
+        }
+        else
+        {
+            embed = DiscordEmbedCreator.CreateEmbedOffline(serverEmbed).Result;
+        }
+        DateTime nearestFullHour = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, 0, 0);
+
+        if(serverEmbed.PlayeOnlineList.TryGetValue(nearestFullHour,out int value)){
+            if (value < serverInfo.Value.players.Length)
+            {
+                serverEmbed.PlayeOnlineList[nearestFullHour] = serverInfo.Value.players.Length;
+            }
+        }
+        else
+        {
+            serverEmbed.PlayeOnlineList.Add(nearestFullHour, serverInfo.Value.players.Length);
+        }
+                
+        ComponentBuilder builder = new();
+        ButtonBuilder button = new();
+        button.WithLabel("join");
+        button.WithStyle(ButtonStyle.Link);
+        button.WithUrl($"https://Irrenhaus.tech/Servers/{serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
+        builder.WithButton(button);
+        try
+        {
+            message.ModifyAsync(msg => { msg.Embed = embed; msg.Components = builder.Build(); });
+        }
+        catch
+        {
+            Console.WriteLine($"[Watning] {DateTime.Now.ToString("HH:mm:ss")} Modifying message for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort} unsuccesfull");
+        }                
+        Console.WriteLine($"[INFO] {DateTime.Now.ToString("HH:mm:ss")} Updated Server Info for {serverEmbed.ServerDomain}:{serverEmbed.ServerPort}");
     }
 
     public static IPAddress GetIPAddress(string address)

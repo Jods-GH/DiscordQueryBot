@@ -43,5 +43,37 @@ public class ServerEmbed
     {
         return "MessageID: "+MessageID+", ServerID: "+ServerID+",ChannelID: "+ChannelID+", ServerDomain: "+ServerDomain+", ServerPort: "+ServerPort;
     }
+    public override bool Equals(object? obj)
+    {
+        if (obj == null || GetType() != obj.GetType())
+        {
+            return false;
+        }
+        else
+        {
+            ServerEmbed serverEmbed = (ServerEmbed)obj;
+            if (serverEmbed.MessageID != MessageID)
+            {
+                return false;
+            }
+            if (serverEmbed.ServerDomain != ServerDomain)
+            {
+                return false;
+            }
+            if (serverEmbed.ServerPort != ServerPort)
+            {
+                return false;
+            }
+            if (serverEmbed.ServerID != ServerID)
+            {
+                return false;
+            }
+            if (serverEmbed.ChannelID != ChannelID)
+            {
+                return false;
+            }
+            return true;
+        }
+    }
 
 }

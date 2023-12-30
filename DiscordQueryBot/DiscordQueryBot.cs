@@ -9,6 +9,7 @@ using LiteDB;
 using A2S.Structs;
 using System.Net;
 using DiscordQueryBot;
+using Google.Protobuf;
 
 /// <summary>
 /// Summary description for Class1
@@ -19,8 +20,8 @@ public class ServerQueryBot
     public static Task Main(string[] args) => new ServerQueryBot().MainAsync();
     private DiscordSocketClient _client;
     private DataBaseHelper DBhelper;
-    private Dictionary<ulong, CancellationTokenSource> tasklist = new Dictionary<ulong, CancellationTokenSource>();
     private GameOption GameOption;
+    private PingService pingService;
     public async Task MainAsync()
     {
         
@@ -28,7 +29,7 @@ public class ServerQueryBot
         AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnProcessExit);
         _client = new DiscordSocketClient();
         DBhelper = new DataBaseHelper();
-        
+        pingService = new PingService();
         String bottoken = UserBotToken();
 
 
@@ -95,10 +96,7 @@ public class ServerQueryBot
         {
             ITextChannel channel = (ITextChannel)_client.GetChannelAsync(embed.ChannelID).Result;
             IUserMessage message = (IUserMessage)channel.GetMessageAsync(embed.MessageID).Result;
-            CancellationTokenSource tokenSource = new CancellationTokenSource();
-            tasklist.Add(message.Id, tokenSource);
-            //embed.AdditionalDescription = BotSettings.ServerDescriptions.GetValueOrDefault(embed.ServerDomain + ":" + embed.ServerPort, "");
-            Task.Run(() => Utility.PingChecker(message, embed, tokenSource), tokenSource.Token);
+            pingService.AddPinger(message, embed);
         }
 
 
@@ -170,13 +168,9 @@ public class ServerQueryBot
         bool deleted = false;
         foreach (ServerEmbed embed in collection)
         {
-            deleted = true;
-            bool threadrunning = tasklist.TryGetValue(embed.MessageID, out CancellationTokenSource value);
-            if (threadrunning == true)
-            {
-                value.Cancel();
-            }
+            pingService.RemovePinger(embed);
             DBhelper.removeFromDatabase(embed.MessageID);
+            deleted = true;
             SocketTextChannel channel =(SocketTextChannel)_client.GetChannelAsync(embed.ChannelID).Result;
             channel.GetMessageAsync(embed.MessageID).Result.DeleteAsync();
             Console.WriteLine($"[INFO] deleted Server: {domain}:{port} with MessageID: {embed.MessageID}");
@@ -225,9 +219,7 @@ public class ServerQueryBot
             AdditionalDescription = ""//BotSettings.ServerDescriptions.GetValueOrDefault(ip.ToString()+":"+port, "")
         };
         DBhelper.addToDatabase(embedData);
-        var tokenSource = new CancellationTokenSource();
-        tasklist.Add(message.Id, tokenSource);
-        Task.Run(() => Utility.PingChecker(message, embedData,tokenSource), tokenSource.Token);
+        pingService.AddPinger(message, embedData);
     }
 
     private async Task createCommands()
