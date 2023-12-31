@@ -152,7 +152,7 @@ public class Utility
         {
             
             var attempts = 3;
-            gamedig = JsonDocument.Parse(StaticNodeJSService.InvokeFromFileAsync<String>("query.js", args: new string[]
+            System.Threading.Tasks.Task<String> result = StaticNodeJSService.InvokeFromFileAsync<String>("query.js", args: new string[]
                 {
                         /* in case you're running the bot in the same system or internal NAT
                          * ex: i run the bot in a public facing VPS that acts as router with NAT,
@@ -176,7 +176,8 @@ public class Utility
                         port.ToString(),
                         attempts.ToString(),
                         (20000 / attempts).ToString("#")
-                }).Result);
+                });
+            gamedig = JsonDocument.Parse(result.Result);
             if (gamedig == null)
             {
                 return null;

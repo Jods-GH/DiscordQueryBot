@@ -98,7 +98,8 @@ public class ServerQueryBot
             IUserMessage message = (IUserMessage)channel.GetMessageAsync(embed.MessageID).Result;
             pingService.AddPinger(message, embed);
         }
-
+        _client.Disconnected += pingService.Stop;
+        _client.Connected += pingService.Start;
 
     }
     private async Task SlashCommandHandler(SocketSlashCommand command)
