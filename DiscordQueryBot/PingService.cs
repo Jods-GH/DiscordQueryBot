@@ -10,6 +10,7 @@ public class PingService
 {
     private ConcurrentDictionary<IUserMessage, ServerEmbed> PingerList;
     CancellationTokenSource ct;
+    private Task sync;
     public PingService()
     {
         PingerList = new ConcurrentDictionary<IUserMessage, ServerEmbed>();
@@ -48,7 +49,12 @@ public class PingService
         ct.Cancel();
     }
 
-    public async Task Start(){ 
+    public async Task Start(){
+        CancellationTokenSource oldct = ct;
+        if (oldct!=null&&!oldct.IsCancellationRequested)
+        {
+            oldct.Cancel();
+        }
         doWork();
     }
 

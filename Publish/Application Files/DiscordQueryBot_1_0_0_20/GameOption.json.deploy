@@ -1,0 +1,19 @@
+{
+    "games": {
+        "arkse": {
+            "id": 346110,
+            "name": "Ark Survival Evolved",
+            "gamedig": "arkse"
+        },
+        "dayz": {
+            "id": 221100,
+            "name": "DayZ",
+            "gamedig": "dayz"
+        },
+        "asa": {
+            "id": 2399830,
+            "name": "Ark: Survival Ascended",
+            "gamedig": "asa"
+        }
+    }
+}

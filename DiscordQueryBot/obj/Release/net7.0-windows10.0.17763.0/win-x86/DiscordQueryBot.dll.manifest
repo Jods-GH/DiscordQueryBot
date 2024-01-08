@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="DiscordQueryBot.exe" version="1.0.0.19" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="DiscordQueryBot.exe" version="1.0.0.20" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -152,13 +152,13 @@
       <dsig:DigestValue>3rWFLc02J0Xg4Wu0Adu09YTmCd9+Waw4OeB9uI2PBfg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DiscordQueryBot.dll" size="46080">
+  <file name="DiscordQueryBot.dll" size="46592">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>I2bELTuedZ5rkEEDyql33QNqwjiWNFhgzBcxBOU2Sl4=</dsig:DigestValue>
+      <dsig:DigestValue>dQ89bN7XFYXHibs8qCT7g3J/atDqGjOjgX/hPkPQih0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DiscordQueryBot.dll.config" size="798">
@@ -176,7 +176,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Kcfsf5MQSTezzFjXvJ0Nm+CDEfbxuZxUO/lJjdJp9K0=</dsig:DigestValue>
+      <dsig:DigestValue>9/hohD5H177gAD7G68IyXqr9la/+R2u5rkg43IgDnWw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DiscordQueryBot.runtimeconfig.json" size="253">
