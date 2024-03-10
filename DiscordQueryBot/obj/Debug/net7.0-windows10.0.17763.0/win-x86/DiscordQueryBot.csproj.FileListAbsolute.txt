@@ -747,7 +747,6 @@ D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\hostfxr.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\hostpolicy.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\mscordaccore.dll
-D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\mscordaccore_x86_x86_7.0.1423.51910.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\mscordbi.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\mscorrc.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\msquic.dll
@@ -759,9 +758,10 @@ D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.AssemblyInfo.cs
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.csproj.CoreCompileInputs.cache
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.sourcelink.json
-D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.csproj.CopyComplete
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\refint\DiscordQueryBot.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.pdb
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQueryBot.genruntimeconfig.cache
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\ref\DiscordQueryBot.dll
+D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Debug\net7.0-windows10.0.17763.0\win-x86\mscordaccore_x86_x86_7.0.1624.6629.dll
+D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Debug\net7.0-windows10.0.17763.0\win-x86\DiscordQ.40968F9D.Up2Date

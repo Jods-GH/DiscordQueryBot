@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-windows10.0.17763.0"
+          "net8.0-windows10.0.17763.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-windows10.0.17763": {
-            "targetAlias": "net7.0-windows10.0.17763.0",
+          "net8.0-windows10.0.17763": {
+            "targetAlias": "net8.0-windows10.0.17763.0",
             "projectReferences": {}
           }
         },
@@ -38,11 +38,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0-windows10.0.17763": {
-          "targetAlias": "net7.0-windows10.0.17763.0",
+        "net8.0-windows10.0.17763": {
+          "targetAlias": "net8.0-windows10.0.17763.0",
           "dependencies": {
             "A2S": {
               "target": "Package",
@@ -50,7 +55,7 @@
             },
             "Discord.Net": {
               "target": "Package",
-              "version": "[3.12.0, )"
+              "version": "[3.13.1, )"
             },
             "Jering.Javascript.NodeJS": {
               "target": "Package",
@@ -62,15 +67,15 @@
             },
             "LiteDB": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.19, )"
             },
             "SteamStorefrontAPI": {
               "target": "Package",
-              "version": "[2.0.1.171, )"
+              "version": "[2.0.1.641, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -86,20 +91,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.17763.31, 10.0.17763.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[7.0.14, 7.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -110,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -157,6 +150,11 @@
           "noWarn": [
             "NU1702"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,7 +164,7 @@
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.22621.2428, )"
+              "version": "[10.0.22621.3233, )"
             }
           },
           "imports": [
