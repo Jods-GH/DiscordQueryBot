@@ -72,6 +72,7 @@ D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Release\net8.0-windows1
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Release\net8.0-windows10.0.17763.0\win-x86\DiscordQueryBot.pdb
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Release\net8.0-windows10.0.17763.0\win-x86\DiscordQueryBot.genruntimeconfig.cache
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Release\net8.0-windows10.0.17763.0\win-x86\ref\DiscordQueryBot.dll
+D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\DiscordQueryBot.dll.manifest
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\DiscordQueryBot.application
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\obj\Release\net8.0-windows10.0.17763.0\win-x86\DiscordQueryBot.dll.manifest

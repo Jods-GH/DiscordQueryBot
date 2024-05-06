@@ -26,6 +26,7 @@ D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows1
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\K4os.Hash.xxHash.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\LightDB.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\LiteDB.dll
+D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\Microsoft.Extensions.Configuration.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Git_Reporsitories\DiscordQueryBot\DiscordQueryBot\bin\Release\net8.0-windows10.0.17763.0\win-x86\app.publish\Microsoft.Extensions.Configuration.FileExtensions.dll

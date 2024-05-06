@@ -55,7 +55,7 @@
             },
             "Discord.Net": {
               "target": "Package",
-              "version": "[3.13.1, )"
+              "version": "[3.14.1, )"
             },
             "Jering.Javascript.NodeJS": {
               "target": "Package",
@@ -71,7 +71,7 @@
             },
             "SteamStorefrontAPI": {
               "target": "Package",
-              "version": "[2.0.1.641, )"
+              "version": "[2.0.1.701, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
